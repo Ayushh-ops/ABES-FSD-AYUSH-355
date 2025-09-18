@@ -1,0 +1,71 @@
+body {
+ font-family: Arial, sans-serif;
+ background: #312626;
+ color: #998888;
+ }
+ h1 { text-align: center;
+padding: 5px; color: #000000;
+background: #00ccfa; }
+
+ .form-card {
+ width: 400px;
+ margin: 20px auto;
+ padding: 16px;
+ background: rgb(73, 71, 71);
+ border: 1px solid #ddd;
+ border-radius: 8px;
+ box-shadow: 10px 5px 5px red;
+ }
+
+ label {
+ display: block;
+ margin: 12px 0;
+ color:rgb(82, 220, 105);
+ }
+
+ input, select {
+ width: 100%;
+ padding: 8px;
+ border: 1px solid #c77e7e;
+ border-radius: 4px;
+ color: rgb(0, 0, 0);
+ }
+
+ .actions {
+ text-align: center;
+ margin-top: 16px;
+ }
+
+ .btn {
+ padding: 8px 16px;
+ background: #2563eb;
+ color: white;
+ border: none;
+ border-radius: 4px;
+   cursor: pointer;
+   
+ }
+
+ .btn.secondary {
+ background: gray;
+ }
+.rainbow {
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: rainbow-animation 6s infinite;
+}
+
+ @keyframes rainbow-animation  {
+  0%{color: red;}
+  50%{color: green;}
+  100%{color: blue;}
+}
+
+
+
+ 
+ 
